@@ -1,0 +1,102 @@
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background: #fdfdfd;
+  color: #333;
+  padding-top: 60px;
+}
+
+/* Header Styles */
+header {
+  background: #00b941;
+  color: white;
+  padding: 20px 0;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1000;
+  text-align: center;
+}
+
+header h1 {
+  margin-bottom: 10px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* Section Styles */
+main {
+  max-width: 800px;
+  margin: auto;
+  padding: 20px;
+}
+
+section {
+  margin-bottom: 40px;
+}
+
+section h2 {
+  color: #035e11;
+  margin-bottom: 10px;
+}
+
+footer {
+  background: #eee;
+  text-align: center;
+  padding: 10px;
+  margin-top: 40px;
+}
+
+.granolabar{
+  max-width: 300px;
+  max-height: 500px;
+}
+
+.avacado{
+   max-width: 300px;
+   max-height: 500px;
+}
+
+.Zucchini{
+   max-width:500px;
+   max-height: 700px;
+}
+
+.chia{
+   max-width:300px;
+   max-height: 500px;
+}
+
+h3{
+  font-size: 32px;
+}
+.para{
+  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  list-style-type:none;
+}
